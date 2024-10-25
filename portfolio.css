@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        
+        <nav class="navbar">
+            <a href="#" style="--i:1;" class="active">Home</a>
+            <a href="#" style="--i:2;">About</a>
+            <a href="#" style="--i:3;">Skills</a>
+            <a href="#" style="--i:4;">Portfolio</a>
+            <a href="#" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Lokesh Puchalapalli</h1>
+            <h3>And  i'm a <span class="multiple-text">Forntend Developer</span></h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quia aut qui. Atque accusamus rem sed dolorem blanditiis quis hic adipisci ullam error, placeat quam nemo cupiditate quibusdam facere amet.</p>
+            <div class="social-media">
+                <a href="" style="--i:7;"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" style="--i:8;"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" style="--i:9;"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="" style="--i:10;"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="" class="button">Download Cv</a>
+        </div>
+        <div class="home-img">
+            <img src="https://res.cloudinary.com/dvw8rfwnq/image/upload/v1729495641/1705243027682_2-removebg-preview_yav8kc.png" alt="">
+            
+        </div>
+    </section>
+</body>
+</html>
